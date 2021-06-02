@@ -4,34 +4,8 @@
   background-origin: border-box;
 }
 
-/* NAVBAR STYLING */
-
-
-    
-    .navbar-brand,.search-bar,.nav-link {
-      
-      padding:0.5rem;
-      
-    }
-    
-    .nav-link{
-      margin-left: 0.5rem;
-    }
-    
-    .navbar-toggler{
-      margin-right:0.5rem;
-      
-    
-      
-  
-}
-
-
-/* NAVBAR STYLING */
-
-
-body{
-
+body {
+  background-color: #222;
   font-family: sans-serif;
   letter-spacing: 2px;
 }
@@ -60,6 +34,12 @@ img {
   justify-content: space-around;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
 
 .brand {
   display: flex;
@@ -74,6 +54,20 @@ img {
   width: 50px;
   height: 50px;
   background-color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  width: 400px;
+}
+ul li {
+  display: inline-block;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* main Section styling */
