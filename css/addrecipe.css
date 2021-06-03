@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+  }
+
+   body{
+       background-color:rgb(252, 197, 188);
+   }
+
+  .recipe-container{
+      display: flex;
+      flex-direction: column;
+    padding: 2rem;
+  }
+
+  .recipe-label{
+      letter-spacing: 0.3rem;
+      text-align: center;
+      margin-bottom: 0.3rem;
+      
+    }
+    
+    .recipe-title{
+        width: 17.3rem;
+    }
+    
+    
+  textarea{
+      margin: 1rem 1rem 1rem 0;
+    }
+    
+    .ingredients-label{
+        letter-spacing: 0.2rem;
+        text-align: center;
+        margin-bottom: 0.4rem;
+        
+        
+    }
+    
+    .ingredients-input{
+       width: 15rem;
+   }
+
+   .ingredients-addbtn{
+
+       width:2rem;
+    
+       margin-left: 0.2rem;
+   }
+   
+    .save-recipe{
+      margin-top: 1rem;
+      width: 9rem;
+      align-self: center;
+      padding: 0.2rem;
+      font-size: 1rem;
+      background-color: rgb(183, 248, 202);
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
