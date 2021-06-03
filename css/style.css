@@ -7,6 +7,10 @@
 /* NAVBAR STYLING */
 
 
+   .navbar{
+      display: flex;
+   }
+
     
     .navbar-brand,.search-bar,.nav-link {
       
@@ -20,16 +24,37 @@
     
     .navbar-toggler{
       margin-right:0.5rem;
+    
       font-size: 1rem; 
+    }
+
+    .search-bar{
+      
+      /* border: 2px solid white;s */
+      
+    
     }
     
   .search-input{
-  width: 8rem; 
+  width: 13rem; 
+  
+  letter-spacing: 0.1rem;
   text-align: center;
+  
 }
 
 .search-btn{
+  margin-left:0.3rem;
+   width: 4rem;
+   padding: 0.2rem;
   font-size: 0.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.nav-item{
+  text-transform: capitalize;
+  transition: all 0.5s linear;
+  border-bottom: 1px solid rgb(83, 82, 82);
 }
 
 
