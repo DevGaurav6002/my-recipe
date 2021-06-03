@@ -20,10 +20,16 @@
     
     .navbar-toggler{
       margin-right:0.5rem;
-      
+      font-size: 1rem; 
+    }
     
-      
-  
+  .search-input{
+  width: 8rem; 
+  text-align: center;
+}
+
+.search-btn{
+  font-size: 0.6rem;
 }
 
 
