@@ -65,6 +65,17 @@
 
 }
 
+.recipe-display-div{
+
+   padding: 2rem;
+
+}
+.recipe-display-div h6{ 
+
+  text-align: center;
+
+}
+
 
 /* NAVBAR STYLING */
 
@@ -117,7 +128,7 @@ img {
 
 /* main Section styling */
 
-main {
+/* main {
   width: 100%;
   padding: 20px;
 }
@@ -214,5 +225,5 @@ main {
     letter-spacing: 3px;
     transition: all ease-in 0.2s;
   }
-}
+} */
 /* Cake-items styling */
